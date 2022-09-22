@@ -1,7 +1,8 @@
 
 def main():
-    players = game_introduction()
-    
+    players = game_introduction()    
+    position = [1,2,3,4,5,6,7,8,9]    
+    play(players)
 
 def game_introduction():
     ###
@@ -17,10 +18,11 @@ def game_introduction():
     
     return players
     
-def play(player):
+def play(player, position):
     ### 
     # movement record
     # ###
+    print(f" {position[0]} │ 2 │ 3 \n───┼───┼───\n 4 │ 5 │ 6 \n───┼───┼───\n 7 │ 8 │ 9 ")
     
     return 
 
